@@ -1,0 +1,28 @@
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\bin\Debug\Car Store System.exe.config
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.Form1.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.Properties.Resources.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car Store System.csproj.GenerateResource.Cache
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\bin\Debug\Car Store System.exe
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\bin\Debug\Car Store System.pdb
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car Store System.exe
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car Store System.pdb
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car Store System.csprojResolveAssemblyReference.cache
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.Form2.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.manager_data.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.new_garage.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.remove.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.Form3.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.show.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.update_user_pass.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.car_model.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.Form4.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.Add_car.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.Form5.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.bill.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\bin\Debug\itextsharp.dll
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.update_users_data.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.salles_table.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.AddSupllier.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.Form6.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.remove_supplier.resources
+F:\moaz folders\Car Store Project\Car Store System\Car Store System\obj\Debug\Car_Store_System.Form7.resources
