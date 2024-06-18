@@ -54,6 +54,11 @@ CREATE INDEX IDX_User_Username ON [User] (username);
 
 CREATE INDEX IDX_Course_Title ON Course (title);
 
+
+--=== CONSTRAINTS
+
+ALTER TABLE [user] ADD CONSTRAINT check_role CHECK (role IN ('student', 'instructor'));
+
 --===  Functions
 
 CREATE FUNCTION dbo.GetTopNCoursesWithHighestSold (@TopN INT)
