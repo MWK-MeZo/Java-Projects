@@ -18,7 +18,7 @@ CREATE TABLE [Message] (
   [receiver_id] int,
   [subject] nvarchar(255),
   [content] text,
-  [timestamp] timestamp
+  [timestamp] datetime
 )
 GO
 
