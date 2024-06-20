@@ -32,7 +32,7 @@ WHERE e.course_id IS NULL;
 --4= the top n courses with the highest number of student enrolled in
 --=> Function GetTopNCoursesWithHieghestSold() 
 
-CREATE FUNCTION dbo.GetTopNCoursesWithHighestSold (@TopN INT)
+CREATE FUNCTION GetTopNCoursesWithHighestSold (@TopN INT)
 RETURNS TABLE
 AS
 RETURN
@@ -89,7 +89,7 @@ RETURN
     WHERE g.student_id = @student_id;
 
 
---===============  instructor QUestions & answers ==========
+--===============  instructor Questions & answers ==========
 
 --9= show all his courses and the count of student enrolled in 
 --=> FUNCTION show_instructor_courses_and_enrollment_count(instructor_id INT)
@@ -147,12 +147,12 @@ RETURN
 --12= show all the instrucors name with he searches for
 --=>  FUNCTION search_instructors_by_name(search_term VARCHAR)
 
-CREATE FUNCTION search_instructors_by_name(@search_term VARCHAR)
+alter FUNCTION sys_admin.search_instructors_by_name(@search_term VARCHAR)
 RETURNS TABLE
 AS
 RETURN
     SELECT u.username AS instructor_name
-    FROM [User] u
+    FROM [Online_Courses_Sys].ins.instructorsOnly u
     WHERE u.role = 'instructor' AND u.username LIKE '%' + @search_term + '%';
 
 --13= show all the courses to a spesific instructor
