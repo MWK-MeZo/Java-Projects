@@ -23,7 +23,8 @@ WHERE role = 'instructor';
 alter VIEW courses.EnrolledCoursesOnly AS
 select * from (
 SELECT c.course_id, c.title, c.description,
-e.student_id, e.enrollment_date , row_number() over (partition by c.course_id order by c.title) as RN
+e.student_id, e.enrollment_date , 
+row_number() over (partition by c.course_id order by c.title) as RN
 FROM Course c INNER JOIN Enrollment e 
 ON c.course_id = e.course_id) as tab
 where RN = 1
@@ -32,11 +33,10 @@ where RN = 1
 
 --=== 4. View to Show Non-Enrolled Courses Only
 
-CREATE VIEW NonEnrolledCoursesOnly AS
+alter VIEW courses.NonEnrolledCoursesOnly AS
 SELECT c.course_id, c.title, c.description
-FROM Course c LEFT JOIN Enrollment e 
-ON c.course_id = e.course_id
-WHERE e.course_id IS NULL;
+FROM Course c
+WHERE c.course_id NOT IN (SELECT e.course_id FROM Enrollment e);
 
 
 --=== 5. View to Show Instructors Without Courses
